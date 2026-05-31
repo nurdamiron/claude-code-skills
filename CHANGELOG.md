@@ -3,6 +3,7 @@
 ## Unreleased — 2026-05-31
 
 ### Changed
+- Added counts everywhere: `31 curated repos · 12 niches · 3000+ skills` badges/line in README and catalog header. Added a "catalog contribution" section to CONTRIBUTING.md.
 - Polished README layout (centered header, badges, prominent catalog callout) and added official Anthropic finance/cookbooks + Vercel agent-skills + googleworkspace/cli + claude-seo to the relevant sections.
 - Grew `SKILLS-CATALOG.md` to ~30 verified repos across 12 niches (added Finance, Office/Data, Science/Research; tools: vercel-labs/skills, skills.sh) with a polished layout, "start here" picks, and install guide. Corrected three more wrong star counts during API verification; kept the dead-Rube (404→rube.app) and 1-star drops.
 - Repositioned README as a curated collection of working Claude skills (official Anthropic, Claude Code dev tooling, marketing/SEO/LLM) plus the built-in SEO agent as the headline bonus. All external links verified live on 2026-05-31 with current star counts.

@@ -8,13 +8,16 @@
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skills-blue)](https://claude.ai/code)
 [![SEO Agent](https://img.shields.io/badge/SEO%20Agent-v4.0-green)](SKILL.md)
 [![Links verified](https://img.shields.io/badge/links%20verified-2026--05--31-brightgreen)](#)
+[![Repos](https://img.shields.io/badge/curated%20repos-31-blue)](SKILLS-CATALOG.md)
+[![Skills](https://img.shields.io/badge/skills-3000%2B-orange)](SKILLS-CATALOG.md)
 
+**31 curated repos · 12 niches · 3000+ skills** (plus this repo's own 19-sub-skill SEO agent).
 *Every external link below was verified live via the GitHub API on **2026-05-31**. No dead links, no inflated star counts.*
 
 </div>
 
 > ### 🇷🇺 Полный каталог по нишам → **[SKILLS-CATALOG.md](SKILLS-CATALOG.md)**
-> ~30 проверенных репо в 12 нишах (маркетинг, дизайн, видео, финансы, наука, безопасность, MCP…) с реальными звёздами и командами установки.
+> 31 проверенный репо/источник в 12 нишах (маркетинг, дизайн, видео, финансы, наука, безопасность, MCP…) с реальными звёздами и командами установки.
 
 ---
 
@@ -111,7 +114,7 @@ Superpowers installs via the Anthropic marketplace and also runs on Codex CLI, G
 | [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) | Curated list with timeline & guides | ~13k ⭐ |
 | [skills.sh](https://skills.sh) | Leaderboard ranked by install count | 🌐 |
 
-**→ Full niche-organized catalog (RU) with ~30 verified repos: [SKILLS-CATALOG.md](SKILLS-CATALOG.md)**
+**→ Full niche-organized catalog (RU) with 31 verified repos: [SKILLS-CATALOG.md](SKILLS-CATALOG.md)**
 
 ---
 
