@@ -1,12 +1,20 @@
-# seo-agent — Working Claude Skills, Curated
+<div align="center">
 
-> A hand-checked collection of **Claude skills that actually work** — official Anthropic skills, developer tooling for Claude Code, and marketing / SEO / LLM skills — plus a built-in **19-sub-skill SEO agent** you can run today.
->
-> Every external link below was verified live on **2026-05-31**. No dead links, no inflated star counts.
+# 🧠 seo-agent — Working Claude Skills, Curated
+
+**A hand-checked collection of Claude skills that actually work** — official Anthropic skills, Claude Code developer tooling, and marketing / SEO / LLM packs — plus a built-in **19-sub-skill SEO agent** you can run today.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skills-blue)](https://claude.ai/code)
 [![SEO Agent](https://img.shields.io/badge/SEO%20Agent-v4.0-green)](SKILL.md)
+[![Links verified](https://img.shields.io/badge/links%20verified-2026--05--31-brightgreen)](#)
+
+*Every external link below was verified live via the GitHub API on **2026-05-31**. No dead links, no inflated star counts.*
+
+</div>
+
+> ### 🇷🇺 Полный каталог по нишам → **[SKILLS-CATALOG.md](SKILLS-CATALOG.md)**
+> ~30 проверенных репо в 12 нишах (маркетинг, дизайн, видео, финансы, наука, безопасность, MCP…) с реальными звёздами и командами установки.
 
 ---
 
@@ -27,12 +35,13 @@
 
 A **Skill** is a folder with a `SKILL.md` file — instructions, scripts, and resources that Claude loads *on demand* to do a specialized task in a repeatable way. Claude reads the description, decides when it's relevant, and pulls in the full instructions only when needed.
 
-Install paths (Claude Code):
-
 ```bash
 # Official marketplace (recommended)
 /plugin marketplace add anthropics/skills
 /plugin install document-skills@anthropic-agent-skills
+
+# Or via the npx skills manager (vercel-labs/skills)
+npx skills add https://github.com/<owner>/<repo>
 
 # Or drop a skill folder in manually
 git clone <skill-repo> ~/.claude/skills/<name>
@@ -44,22 +53,18 @@ In Claude.ai (paid plans) and the API you upload skills in Settings / via the Sk
 
 ## Official skills (Anthropic)
 
-From [`anthropics/skills`](https://github.com/anthropics/skills) — *~145k ⭐, the canonical source.* The document skills are source-available; the rest are Apache-2.0 examples.
+From [`anthropics/skills`](https://github.com/anthropics/skills) — *~145k ⭐, the canonical source.* Document skills are source-available; the rest are Apache-2.0 examples.
 
 | Skill | What it does |
 |---|---|
-| **[docx](https://github.com/anthropics/skills/tree/main/skills/docx)** | Create & edit Word documents — formatting, tables, formulas |
-| **[xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)** | Build Excel spreadsheets with formulas and charts |
-| **[pptx](https://github.com/anthropics/skills/tree/main/skills/pptx)** | Generate PowerPoint decks |
-| **[pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)** | Read, fill, and manipulate PDFs (incl. form fields) |
+| **[docx](https://github.com/anthropics/skills/tree/main/skills/docx)** · **[xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)** · **[pptx](https://github.com/anthropics/skills/tree/main/skills/pptx)** · **[pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)** | The "Document Suite" — Word / Excel / PowerPoint / PDF with formulas, tables, form fields. Works out of the box. |
 | **[theme-factory](https://github.com/anthropics/skills/tree/main/skills/theme-factory)** | Apply your brand colors & fonts across every artifact |
 | **[brand-guidelines](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines)** | Enforce a brand system in generated content |
-| **[skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)** | Scaffold new, well-formed skills |
+| **[skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator)** | Scaffold new, well-formed skills in minutes |
 | **[mcp-builder](https://github.com/anthropics/skills/tree/main/skills/mcp-builder)** | Generate MCP servers |
-| **[webapp-testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing)** | Drive and test web apps headlessly |
-| **[frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design)** | Produce distinctive, production-grade UI |
+| **[webapp-testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing)** · **[frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design)** | Drive/test web apps headlessly · produce production-grade UI |
 
-> The four document skills (`docx / xlsx / pptx / pdf`) are the "Document Suite" — they work out of the box on paid Claude.ai and in Claude Code.
+More official packs worth knowing: **[financial-services-plugins](https://github.com/anthropics/financial-services-plugins)** *(~29k ⭐ — DCF/LBO/comps/M&A)* · **[claude-cookbooks](https://github.com/anthropics/claude-cookbooks)** *(~45k ⭐ — recipes incl. CSV→Excel→PPT→PDF)*.
 
 ---
 
@@ -67,11 +72,11 @@ From [`anthropics/skills`](https://github.com/anthropics/skills) — *~145k ⭐,
 
 | Skill / pack | What it does | Source |
 |---|---|---|
-| **Superpowers** | Turns Claude into a disciplined engineer: brainstorm → plan → execute, with TDD, git worktrees, and code review built in. Commands: `/superpowers:brainstorm`, `/superpowers:write-plan`, `/superpowers:execute-plan`. | [obra/superpowers](https://github.com/obra/superpowers) — *~214k ⭐* |
-| **Systematic Debugging** | 4-phase root-cause debugging loop. Ships *inside* Superpowers as `/superpowers:debug`. | [obra/superpowers](https://github.com/obra/superpowers) |
-| **skill-creator** | The fastest way to build your own custom skills (social-media formats, content calendars, internal workflows) in minutes. | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/skill-creator) |
+| **Superpowers** | Turns Claude into a disciplined engineer: brainstorm → plan → execute, with TDD, git worktrees, and code review built in. Commands: `/superpowers:brainstorm`, `:write-plan`, `:execute-plan`, `:debug`. | [obra/superpowers](https://github.com/obra/superpowers) — *~214k ⭐* |
+| **Vercel agent skills** | Official Vercel pack: React / Next.js best practices, UI audit, React Native, deploy. | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) — *~27k ⭐* |
+| **skill-creator** | The fastest way to build your own custom skills (social formats, content calendars, internal workflows). | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/skill-creator) |
 
-Install Superpowers via the Anthropic marketplace — it also runs on Codex CLI, Gemini CLI, Cursor, and Copilot CLI.
+Superpowers installs via the Anthropic marketplace and also runs on Codex CLI, Gemini CLI, Cursor, and Copilot CLI.
 
 ---
 
@@ -79,38 +84,34 @@ Install Superpowers via the Anthropic marketplace — it also runs on Codex CLI,
 
 | Pack | What it covers | Source |
 |---|---|---|
-| **Marketing Skills** | 50+ skills: CRO, copywriting, SEO, analytics, ads, lifecycle email, pricing, launch, programmatic SEO, schema. Organized by discipline; skills reference each other. | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — *~31k ⭐* |
+| **Marketing Skills** | 50+ skills: CRO, copywriting, SEO, analytics, ads, lifecycle email, pricing, launch, programmatic SEO, schema. | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — *~31k ⭐* |
+| **Claude SEO** | 25 sub-skills + 18 sub-agents: technical SEO, hreflang, sitemap, schema, programmatic. | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) — *~7.6k ⭐* |
 
-Highlights from that pack worth pulling on their own: `ai-seo` (get cited by ChatGPT / Perplexity / AI Overviews), `programmatic-seo`, `schema`, `seo-audit`, `copywriting`, `cro`, `competitors`, `directory-submissions`.
-
-> Need an SEO/GEO audit *right now*? Skip straight to the [built-in SEO agent](#-bonus-built-in-seo-agent) in this repo.
+> Need an SEO/GEO audit *right now*? Skip to the [built-in SEO agent](#-bonus-built-in-seo-agent) below — `/seo audit [url]`.
 
 ---
 
 ## Connect Claude to your apps (MCP)
 
-| Tool | What it does | Source |
+| Tool | What it does | Install |
 |---|---|---|
-| **Rube** | One MCP server that connects Claude to **500+ apps** (Slack, GitHub, Notion, Gmail, Linear, Airtable…) with a single OAuth. Ask Claude to "send the email" or "create the Linear issue" and it does it. | [rube.app](https://rube.app) · by [Composio](https://github.com/ComposioHQ/composio) — *~29k ⭐* |
-
-Install in Claude Code / Desktop by adding the MCP URL `https://rube.app/mcp` as a custom connector, then authenticate the apps you want once.
+| **Rube** · by [Composio](https://github.com/ComposioHQ/composio) *(~29k ⭐)* | One MCP server → **500+ apps** (Slack, GitHub, Notion, Gmail, Linear…) with a single OAuth. | Add `https://rube.app/mcp` as a custom connector |
+| **[googleworkspace/cli](https://github.com/googleworkspace/cli)** *(~27k ⭐)* | Full Gmail / Drive / Calendar / Sheets access via built-in MCP. | `npx skills add https://github.com/googleworkspace/cli` |
 
 ---
 
 ## Where to find more — curated lists
 
-> 🇷🇺 Niche-organized catalog in Russian (marketing, dev, security, multi-category, MCP) with install commands: **[SKILLS-CATALOG.md](SKILLS-CATALOG.md)**.
+| List / tool | Scope | Stars |
+|---|---|:--:|
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 1000+ skills & plugins across agents | ~63k ⭐ |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Skills, hooks, slash-commands, orchestrators | ~45k ⭐ |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ skills from Anthropic, Vercel, Stripe… | ~24k ⭐ |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | The `npx skills` manager + `find-skills` | ~21k ⭐ |
+| [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) | Curated list with timeline & guides | ~13k ⭐ |
+| [skills.sh](https://skills.sh) | Leaderboard ranked by install count | 🌐 |
 
-Bigger registries when you want to browse the long tail (verified 2026-05-31):
-
-| List | Scope | Stars |
-|---|---|---|
-| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 1000+ skills & plugins across Claude + other agents | ~63k ⭐ |
-| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Skills, hooks, slash-commands, orchestrators, plugins | ~45k ⭐ |
-| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ skills from Anthropic, Vercel, Stripe, Cloudflare, Figma… | ~24k ⭐ |
-| [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) | Curated Claude skills & tools | ~13k ⭐ |
-| [BehiSecc/awesome-claude-skills](https://github.com/BehiSecc/awesome-claude-skills) | Curated Claude skills | ~9k ⭐ |
-| [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | MCP servers (the connector layer under skills) | ~88k ⭐ |
+**→ Full niche-organized catalog (RU) with ~30 verified repos: [SKILLS-CATALOG.md](SKILLS-CATALOG.md)**
 
 ---
 
@@ -125,7 +126,7 @@ git clone https://github.com/nurdamiron/seo-agent ~/.claude/skills/seo
 cp SKILL.md ~/.claude/skills/seo/SKILL.md
 ```
 
-Then run `/seo audit [url]` and get PageSpeed (LCP/INP/CLS) data, an LLM-readiness score, E-E-A-T assessment, AI Overviews eligibility, brand visibility across ChatGPT/Perplexity/Gemini, and generated `sitemap.xml` / `robots.txt` / `llms.txt` / `schema.json` / action plan.
+Run `/seo audit [url]` → PageSpeed (LCP/INP/CLS) data, LLM-readiness score, E-E-A-T assessment, AI Overviews eligibility, brand visibility across ChatGPT/Perplexity/Gemini, and generated `sitemap.xml` / `robots.txt` / `llms.txt` / `schema.json` / action plan.
 
 <details>
 <summary><b>All 19 sub-skills</b></summary>
@@ -158,7 +159,8 @@ Then run `/seo audit [url]` and get PageSpeed (LCP/INP/CLS) data, an LLM-readine
 
 Full docs: **[SKILL.md](SKILL.md)** · sub-skill details in [`docs/sub-skills/`](docs/sub-skills) · sample output in [`examples/`](examples).
 
-### Research & standards behind it
+<details>
+<summary>Research & standards behind it</summary>
 
 - [GEO Paper — Princeton (arxiv 2311.09735)](https://arxiv.org/abs/2311.09735)
 - [AutoGEO — ICLR 2026 (cxcscmu/AutoGEO)](https://github.com/cxcscmu/AutoGEO)
@@ -167,11 +169,13 @@ Full docs: **[SKILL.md](SKILL.md)** · sub-skill details in [`docs/sub-skills/`]
 - [Core Web Vitals — Google](https://developers.google.com/search/docs/appearance/core-web-vitals)
 - [E-E-A-T — Google Search Central](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)
 
+</details>
+
 ---
 
 ## Contributing
 
-PRs welcome — add a skill or repo only if the link is **live** and the project is **real** (no inflated stars). Include a one-line "what it does" and, for collections, the current star count. See [CONTRIBUTING.md](CONTRIBUTING.md).
+PRs welcome — add a skill or repo only if the link is **live** and the project is **real** (no inflated stars). Include a one-line "what it does" and the current star count. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
