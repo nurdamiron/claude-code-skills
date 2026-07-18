@@ -27,7 +27,7 @@ jobs:
         run: |
           set -euo pipefail
           {
-            grep -oE 'github\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+' README.md SKILLS-CATALOG.md || true
+            grep -hoE 'github\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+' README.md SKILLS-CATALOG.md || true
           } | sed 's|github.com/||' \
             | awk -F/ '{print $1"/"$2}' \
             | grep -v '^nurdamiron/claude-code-skills$' \
