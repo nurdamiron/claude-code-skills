@@ -4,7 +4,7 @@
 
 **Только живые репозитории.** Каждая ссылка проверена через GitHub API · ⭐ — реальное число звёзд на дату проверки.
 
-`Проверено: 2026-05-31` · `31 репо/источник` · `12 ниш` · `3000+ скиллов суммарно`
+`Проверено: 2026-07-18` · `31 репо/источник` · `12 ниш` · `3000+ скиллов суммарно`
 
 </div>
 
@@ -36,9 +36,9 @@ cp -r <repo>/<skill> ~/.claude/skills/
 
 | Хочу… | Ставлю | ⭐ |
 |---|---|---|
-| 📈 продвигать продукт / контент | [`coreyhaines31/marketingskills`](https://github.com/coreyhaines31/marketingskills) | ~31k |
-| 💻 дисциплинировать Клода в коде | [`obra/superpowers`](https://github.com/obra/superpowers) | ~214k |
-| 🔌 подключить Клода к своим приложениям | [Rube](https://rube.app) (Slack/GitHub/Notion/Gmail) | ~29k |
+| 📈 продвигать продукт / контент | [`coreyhaines31/marketingskills`](https://github.com/coreyhaines31/marketingskills) | ~41k |
+| 💻 дисциплинировать Клода в коде | [`obra/superpowers`](https://github.com/obra/superpowers) | ~257k |
+| 🔌 подключить Клода к своим приложениям | [Rube](https://www.rube.app) (Slack/GitHub/Notion/Gmail) | ~29k |
 | 🔎 SEO-аудит прямо сейчас | [этот репо → `/seo audit`](SKILL.md) | — |
 
 ---
@@ -47,10 +47,10 @@ cp -r <repo>/<skill> ~/.claude/skills/
 
 | Репо | ⭐ | Что внутри |
 |---|:--:|---|
-| [`coreyhaines31/marketingskills`](https://github.com/coreyhaines31/marketingskills) | ~31k | Топовый маркетинг-пак: CRO, копирайтинг, SEO, аналитика, email, growth (50+ скиллов) |
-| [`AgriciDaniel/claude-seo`](https://github.com/AgriciDaniel/claude-seo) | ~7.6k | SEO-воркфлоу: 25 сабскиллов + 18 сабагентов — технический SEO, hreflang, sitemap, schema, programmatic |
-| [`jonathimer/devmarketing-skills`](https://github.com/jonathimer/devmarketing-skills) | ~80 | Маркетинг для разработчиков: HN, Reddit, технические туториалы, docs-as-marketing |
-| [`boraoztunc/skills`](https://github.com/boraoztunc/skills) | ~73 | Копирайтинг (фреймворки Огилви), реклама, SEO, дизайн, контент-план |
+| [`coreyhaines31/marketingskills`](https://github.com/coreyhaines31/marketingskills) | ~41k | Топовый маркетинг-пак: CRO, копирайтинг, SEO, аналитика, email, growth (50+ скиллов) |
+| [`AgriciDaniel/claude-seo`](https://github.com/AgriciDaniel/claude-seo) | ~12k | SEO-воркфлоу: 25 сабскиллов + 18 сабагентов — технический SEO, hreflang, sitemap, schema, programmatic |
+| [`jonathimer/devmarketing-skills`](https://github.com/jonathimer/devmarketing-skills) | ~83 | Маркетинг для разработчиков: HN, Reddit, технические туториалы, docs-as-marketing |
+| [`boraoztunc/skills`](https://github.com/boraoztunc/skills) | ~177 | Копирайтинг (фреймворки Огилви), реклама, SEO, дизайн, контент-план |
 
 ---
 
@@ -58,9 +58,9 @@ cp -r <repo>/<skill> ~/.claude/skills/
 
 | Репо | ⭐ | Что внутри |
 |---|:--:|---|
-| [`Leonxlnx/taste-skill`](https://github.com/Leonxlnx/taste-skill) | ~30k | Анти-«слоп» дизайн: стилевые варианты + генерация рефов, регуляторы плотности/анимации |
-| [`Owl-Listener/designer-skills`](https://github.com/Owl-Listener/designer-skills) | ~1.4k | 63 скилла на весь дизайн-цикл — от ресёрча до хендоффа разработчику |
-| [`vercel-labs/web-interface-guidelines`](https://github.com/vercel-labs/web-interface-guidelines) | ~650 | Гайдлайны Vercel по UI как скилл: аудит интерфейса по 100+ правилам |
+| [`Leonxlnx/taste-skill`](https://github.com/Leonxlnx/taste-skill) | ~65k | Анти-«слоп» дизайн: стилевые варианты + генерация рефов, регуляторы плотности/анимации |
+| [`Owl-Listener/designer-skills`](https://github.com/Owl-Listener/designer-skills) | ~1.9k | 63 скилла на весь дизайн-цикл — от ресёрча до хендоффа разработчику |
+| [`vercel-labs/web-interface-guidelines`](https://github.com/vercel-labs/web-interface-guidelines) | ~722 | Гайдлайны Vercel по UI как скилл: аудит интерфейса по 100+ правилам |
 
 ---
 
@@ -68,7 +68,7 @@ cp -r <repo>/<skill> ~/.claude/skills/
 
 | Репо | ⭐ | Что внутри |
 |---|:--:|---|
-| [`remotion-dev/skills`](https://github.com/remotion-dev/skills) | ~3.4k | Программное видео на React (Remotion). Официальный |
+| [`remotion-dev/skills`](https://github.com/remotion-dev/skills) | ~4k | Программное видео на React (Remotion). Официальный |
 
 ---
 
@@ -76,9 +76,9 @@ cp -r <repo>/<skill> ~/.claude/skills/
 
 | Репо | ⭐ | Что внутри |
 |---|:--:|---|
-| [`obra/superpowers`](https://github.com/obra/superpowers) | ~214k | Флагман экосистемы: брейншторм → план → исполнение по TDD, дебаг |
-| [`vercel-labs/agent-skills`](https://github.com/vercel-labs/agent-skills) | ~27k | Официальные скиллы Vercel: React / Next.js best practices, аудит UI, React Native, деплой |
-| [`Jeffallan/claude-skills`](https://github.com/Jeffallan/claude-skills) | ~9.5k | 66 скиллов для фуллстека: языки, фреймворки, тесты, DevOps, API |
+| [`obra/superpowers`](https://github.com/obra/superpowers) | ~257k | Флагман экосистемы: брейншторм → план → исполнение по TDD, дебаг |
+| [`vercel-labs/agent-skills`](https://github.com/vercel-labs/agent-skills) | ~29k | Официальные скиллы Vercel: React / Next.js best practices, аудит UI, React Native, деплой |
+| [`Jeffallan/claude-skills`](https://github.com/Jeffallan/claude-skills) | ~11k | 66 скиллов для фуллстека: языки, фреймворки, тесты, DevOps, API |
 
 ---
 
@@ -86,7 +86,7 @@ cp -r <repo>/<skill> ~/.claude/skills/
 
 | Репо | ⭐ | Что внутри |
 |---|:--:|---|
-| [`multica-ai/andrej-karpathy-skills`](https://github.com/multica-ai/andrej-karpathy-skills) | ~163k | Правила против типичных косяков ИИ-кодинга (один `CLAUDE.md`). Мёржится с твоим CLAUDE.md |
+| [`multica-ai/andrej-karpathy-skills`](https://github.com/multica-ai/andrej-karpathy-skills) | ~194k | Правила против типичных косяков ИИ-кодинга (один `CLAUDE.md`). Мёржится с твоим CLAUDE.md |
 
 ---
 
@@ -94,8 +94,8 @@ cp -r <repo>/<skill> ~/.claude/skills/
 
 | Репо | ⭐ | Что внутри |
 |---|:--:|---|
-| [`briiirussell/cybersecurity-skills`](https://github.com/briiirussell/cybersecurity-skills) | ~217 | Кибербез для AI-агентов (Claude Code, Cursor, Codex) |
-| [`BehiSecc/awesome-claude-skills`](https://github.com/BehiSecc/awesome-claude-skills) | ~9k | Список с упором на security: OWASP, Trail of Bits, редакция PII, env-secrets |
+| [`briiirussell/cybersecurity-skills`](https://github.com/briiirussell/cybersecurity-skills) | ~309 | Кибербез для AI-агентов (Claude Code, Cursor, Codex) |
+| [`BehiSecc/awesome-claude-skills`](https://github.com/BehiSecc/awesome-claude-skills) | ~9.8k | Список с упором на security: OWASP, Trail of Bits, редакция PII, env-secrets |
 
 ---
 
@@ -103,8 +103,8 @@ cp -r <repo>/<skill> ~/.claude/skills/
 
 | Репо | ⭐ | Что внутри |
 |---|:--:|---|
-| [`anthropics/financial-services-plugins`](https://github.com/anthropics/financial-services-plugins) | ~29k | Официальный пак Anthropic: DCF, LBO, 3-statement, comps, M&A, equity research, коннекторы данных |
-| [`jeremylongshore/excel-analyst-pro`](https://github.com/jeremylongshore/excel-analyst-pro) | ~32 | DCF, LBO, variance-отчёты и пивоты в Excel на обычном языке (через Excel MCP) |
+| [`anthropics/financial-services`](https://github.com/anthropics/financial-services) | ~34k | Официальный пак Anthropic: DCF, LBO, 3-statement, comps, M&A, equity research, коннекторы данных (раньше `financial-services-plugins`) |
+| [`jeremylongshore/excel-analyst-pro-skill-md`](https://github.com/jeremylongshore/excel-analyst-pro-skill-md) | ~48 | DCF, LBO, variance-отчёты и пивоты в Excel на обычном языке |
 
 ---
 
@@ -112,8 +112,8 @@ cp -r <repo>/<skill> ~/.claude/skills/
 
 | Репо | ⭐ | Что внутри |
 |---|:--:|---|
-| [`anthropics/claude-cookbooks`](https://github.com/anthropics/claude-cookbooks) | ~45k | Официальные рецепты Anthropic: финмодели, дашборды, цепочка CSV → Excel → PPT → PDF, создание своих скиллов |
-| [`tfriedel/claude-office-skills`](https://github.com/tfriedel/claude-office-skills) | ~700 | Создание и правка PPTX / DOCX / XLSX / PDF: формулы, redlining, заполнение форм |
+| [`anthropics/claude-cookbooks`](https://github.com/anthropics/claude-cookbooks) | ~49k | Официальные рецепты Anthropic: финмодели, дашборды, цепочка CSV → Excel → PPT → PDF, создание своих скиллов |
+| [`tfriedel/claude-office-skills`](https://github.com/tfriedel/claude-office-skills) | ~790 | Создание и правка PPTX / DOCX / XLSX / PDF: формулы, redlining, заполнение форм |
 
 ---
 
@@ -121,8 +121,8 @@ cp -r <repo>/<skill> ~/.claude/skills/
 
 | Репо | ⭐ | Что внутри |
 |---|:--:|---|
-| [`Imbad0202/academic-research-skills`](https://github.com/Imbad0202/academic-research-skills) | ~25k | Академический пайплайн: research → write → review → revise → finalize, под ICLR / NeurIPS / Nature |
-| [`aspi6246/Claude-Code-Skills-for-Academics`](https://github.com/aspi6246/Claude-Code-Skills-for-Academics) | ~125 | Скиллы под академическую работу: литобзор, статьи, рецензирование |
+| [`Imbad0202/academic-research-skills`](https://github.com/Imbad0202/academic-research-skills) | ~38k | Академический пайплайн: research → write → review → revise → finalize, под ICLR / NeurIPS / Nature |
+| [`aspi6246/Claude-Code-Skills-for-Academics`](https://github.com/aspi6246/Claude-Code-Skills-for-Academics) | ~145 | Скиллы под академическую работу: литобзор, статьи, рецензирование |
 
 ---
 
@@ -130,8 +130,8 @@ cp -r <repo>/<skill> ~/.claude/skills/
 
 | Инструмент | ⭐ | Что делает | Установка |
 |---|:--:|---|---|
-| **Rube** ([rube.app](https://rube.app), by [Composio](https://github.com/ComposioHQ/composio)) | ~29k | Коннектор к 500+ приложениям (Slack, GitHub, Notion, Gmail) одной авторизацией | Claude Desktop / Code → Settings → Connectors → `https://rube.app/mcp` |
-| [`googleworkspace/cli`](https://github.com/googleworkspace/cli) | ~27k | Полный доступ к Gmail / Drive / Calendar / Sheets через встроенный MCP | `npx skills add https://github.com/googleworkspace/cli` |
+| **Rube** ([www.rube.app](https://www.rube.app), by [Composio](https://github.com/ComposioHQ/composio)) | ~29k | Коннектор к 500+ приложениям (Slack, GitHub, Notion, Gmail) одной авторизацией | Бери коннектор на [www.rube.app](https://www.rube.app) *(apex `rube.app` сейчас не резолвится)* |
+| [`googleworkspace/cli`](https://github.com/googleworkspace/cli) | ~30k | Полный доступ к Gmail / Drive / Calendar / Sheets через встроенный MCP | `npx skills add https://github.com/googleworkspace/cli` |
 
 ---
 
@@ -139,8 +139,8 @@ cp -r <repo>/<skill> ~/.claude/skills/
 
 | Репо | ⭐ | Что внутри |
 |---|:--:|---|
-| [`sickn33/antigravity-awesome-skills`](https://github.com/sickn33/antigravity-awesome-skills) | ~39k | 1400+ скиллов с CLI-установщиком и готовыми бандлами по ролям |
-| [`alirezarezvani/claude-skills`](https://github.com/alirezarezvani/claude-skills) | ~17k | 337 скиллов: инженерия, маркетинг, продукт, compliance, C-level, ресёрч |
+| [`sickn33/agentic-awesome-skills`](https://github.com/sickn33/agentic-awesome-skills) | ~44k | 1900+ скиллов с CLI-установщиком и готовыми бандлами по ролям (раньше `antigravity-awesome-skills`) |
+| [`alirezarezvani/claude-skills`](https://github.com/alirezarezvani/claude-skills) | ~23k | 345 скиллов: инженерия, маркетинг, продукт, compliance, C-level, ресёрч |
 
 ---
 
@@ -148,12 +148,12 @@ cp -r <repo>/<skill> ~/.claude/skills/
 
 | Источник | ⭐ | Что внутри |
 |---|:--:|---|
-| [`anthropics/skills`](https://github.com/anthropics/skills) | ~145k | Официальный репо Anthropic — эталон и примеры |
-| [`ComposioHQ/awesome-claude-skills`](https://github.com/ComposioHQ/awesome-claude-skills) | ~63k | Список с разбивкой по задачам (контент, ресёрч, Twitter и др.) |
-| [`hesreallyhim/awesome-claude-code`](https://github.com/hesreallyhim/awesome-claude-code) | ~45k | Скиллы, хуки, slash-команды, оркестраторы, плагины |
-| [`VoltAgent/awesome-agent-skills`](https://github.com/VoltAgent/awesome-agent-skills) | ~24k | 1000+ скиллов от Anthropic, Vercel, Stripe, Cloudflare и комьюнити |
-| [`vercel-labs/skills`](https://github.com/vercel-labs/skills) | ~21k | Менеджер `npx skills` + meta-скилл `find-skills` (находит и ставит другие скиллы) |
-| [`travisvn/awesome-claude-skills`](https://github.com/travisvn/awesome-claude-skills) | ~13k | Кураторский список с таймлайном и гайдами |
+| [`anthropics/skills`](https://github.com/anthropics/skills) | ~162k | Официальный репо Anthropic — эталон и примеры |
+| [`ComposioHQ/awesome-claude-skills`](https://github.com/ComposioHQ/awesome-claude-skills) | ~68k | Список с разбивкой по задачам (контент, ресёрч, Twitter и др.) |
+| [`hesreallyhim/awesome-claude-code`](https://github.com/hesreallyhim/awesome-claude-code) | ~50k | Скиллы, хуки, slash-команды, оркестраторы, плагины |
+| [`VoltAgent/awesome-agent-skills`](https://github.com/VoltAgent/awesome-agent-skills) | ~28k | 1000+ скиллов от Anthropic, Vercel, Stripe, Cloudflare и комьюнити |
+| [`vercel-labs/skills`](https://github.com/vercel-labs/skills) | ~27k | Менеджер `npx skills` + meta-скилл `find-skills` (находит и ставит другие скиллы) |
+| [`travisvn/awesome-claude-skills`](https://github.com/travisvn/awesome-claude-skills) | ~14k | Кураторский список с таймлайном и гайдами |
 | [skills.sh](https://skills.sh) | 🌐 | Лидерборд скиллов по числу установок — самый близкий к объективному «топу» источник |
 
 ---
@@ -163,7 +163,7 @@ cp -r <repo>/<skill> ~/.claude/skills/
 - **Звёзды и состав репо меняются** — числа приблизительные на дату проверки в шапке.
 - **Форки-клоны.** У популярных репо бывают копии с тем же описанием (например у `coreyhaines31/marketingskills` — `ayrshare/marketingskills`, `syntax-syndicate/marketing-skills`). Ставь **оригинал**.
 - **Скилл = чужой код, который исполняет твой Claude.** Перед установкой открой `SKILL.md` и доверяй проверенным авторам. В security-списках периодически вычищают фишинговые ссылки — слепо доверять каталогу нельзя.
-- **Агрегаторы** (`antigravity-awesome-skills` 1400+, `alirezarezvani` 337) собирают чужие скиллы — качество отдельных компонентов внутри не гарантируется.
+- **Агрегаторы** (`agentic-awesome-skills` 1900+, `alirezarezvani` 345) собирают чужие скиллы — качество отдельных компонентов внутри не гарантируется.
 
 ---
 

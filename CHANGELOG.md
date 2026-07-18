@@ -1,6 +1,14 @@
 # Changelog
 
-## Unreleased — 2026-05-31
+## Unreleased — 2026-07-18
+
+### Changed
+- Re-verified all catalog GitHub links and star counts via GitHub API (2026-07-18). Updated `README.md` + `SKILLS-CATALOG.md` headers, badges, and tables.
+- Fixed renamed repos: `anthropics/financial-services-plugins` → `anthropics/financial-services`, `sickn33/antigravity-awesome-skills` → `sickn33/agentic-awesome-skills`, `jeremylongshore/excel-analyst-pro` → `jeremylongshore/excel-analyst-pro-skill-md`.
+- Rube install guidance now points at `https://www.rube.app` (apex `rube.app` does not resolve).
+- Added weekly CI workflow [`.github/workflows/verify-links.yml`](.github/workflows/verify-links.yml) so dead/renamed links fail the build.
+
+## 2026-05-31
 
 ### Changed
 - Added counts everywhere: `31 curated repos · 12 niches · 3000+ skills` badges/line in README and catalog header. Added a "catalog contribution" section to CONTRIBUTING.md.

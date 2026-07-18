@@ -1,0 +1,71 @@
+name: Verify catalog links
+
+on:
+  push:
+    paths:
+      - 'README.md'
+      - 'SKILLS-CATALOG.md'
+      - '.github/workflows/verify-links.yml'
+  pull_request:
+    paths:
+      - 'README.md'
+      - 'SKILLS-CATALOG.md'
+      - '.github/workflows/verify-links.yml'
+  schedule:
+    # Weekly re-check so star counts / renames don't silently rot
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+jobs:
+  verify-github-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract unique owner/repo links from catalog files
+        id: extract
+        run: |
+          set -euo pipefail
+          {
+            grep -oE 'github\.com/[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+' README.md SKILLS-CATALOG.md || true
+          } | sed 's|github.com/||' \
+            | awk -F/ '{print $1"/"$2}' \
+            | grep -v '^nurdamiron/claude-code-skills$' \
+            | sort -u > /tmp/repos.txt
+          count=$(wc -l < /tmp/repos.txt | tr -d ' ')
+          echo "Found $count unique external GitHub repos"
+          cat /tmp/repos.txt
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+
+      - name: Check each repo is reachable via GitHub API
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          fail=0
+          while read -r repo; do
+            [ -z "$repo" ] && continue
+            # Follow renames; fail on 404 / hard errors
+            if ! body=$(gh api "repos/$repo" --jq '[.full_name, (.stargazers_count|tostring), (.archived|tostring)] | join("|")' 2>/tmp/gh_err.txt); then
+              echo "FAIL  $repo — $(tr '\n' ' ' </tmp/gh_err.txt)"
+              fail=1
+              continue
+            fi
+            full=$(echo "$body" | cut -d'|' -f1)
+            stars=$(echo "$body" | cut -d'|' -f2)
+            archived=$(echo "$body" | cut -d'|' -f3)
+            note=""
+            if [ "$full" != "$repo" ]; then
+              note=" (renamed → $full)"
+            fi
+            if [ "$archived" = "true" ]; then
+              echo "WARN  $repo — archived, $stars ⭐$note"
+            else
+              echo "OK    $repo — $stars ⭐$note"
+            fi
+          done < /tmp/repos.txt
+          if [ "$fail" -ne 0 ]; then
+            echo "::error::One or more GitHub links are dead. Update README.md / SKILLS-CATALOG.md."
+            exit 1
+          fi
+          echo "All external GitHub links resolve."

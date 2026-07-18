@@ -7,12 +7,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skills-blue)](https://claude.ai/code)
 [![SEO Agent](https://img.shields.io/badge/SEO%20Agent-v4.0-green)](SKILL.md)
-[![Links verified](https://img.shields.io/badge/links%20verified-2026--05--31-brightgreen)](#)
+[![Links verified](https://img.shields.io/badge/links%20verified-2026--07--18-brightgreen)](#)
+[![Link check](https://github.com/nurdamiron/claude-code-skills/actions/workflows/verify-links.yml/badge.svg)](https://github.com/nurdamiron/claude-code-skills/actions/workflows/verify-links.yml)
 [![Repos](https://img.shields.io/badge/curated%20repos-31-blue)](SKILLS-CATALOG.md)
 [![Skills](https://img.shields.io/badge/skills-3000%2B-orange)](SKILLS-CATALOG.md)
 
 **31 curated repos · 12 niches · 3000+ skills** (plus this repo's own 19-sub-skill SEO agent).
-*Every external link below was verified live via the GitHub API on **2026-05-31**. No dead links, no inflated star counts.*
+*Every external link below was verified live via the GitHub API on **2026-07-18** — and re-checked weekly by [CI](.github/workflows/verify-links.yml). No dead links, no inflated star counts.*
 
 </div>
 
@@ -56,7 +57,7 @@ In Claude.ai (paid plans) and the API you upload skills in Settings / via the Sk
 
 ## Official skills (Anthropic)
 
-From [`anthropics/skills`](https://github.com/anthropics/skills) — *~145k ⭐, the canonical source.* Document skills are source-available; the rest are Apache-2.0 examples.
+From [`anthropics/skills`](https://github.com/anthropics/skills) — *~162k ⭐, the canonical source.* Document skills are source-available; the rest are Apache-2.0 examples.
 
 | Skill | What it does |
 |---|---|
@@ -67,7 +68,7 @@ From [`anthropics/skills`](https://github.com/anthropics/skills) — *~145k ⭐,
 | **[mcp-builder](https://github.com/anthropics/skills/tree/main/skills/mcp-builder)** | Generate MCP servers |
 | **[webapp-testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing)** · **[frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design)** | Drive/test web apps headlessly · produce production-grade UI |
 
-More official packs worth knowing: **[financial-services-plugins](https://github.com/anthropics/financial-services-plugins)** *(~29k ⭐ — DCF/LBO/comps/M&A)* · **[claude-cookbooks](https://github.com/anthropics/claude-cookbooks)** *(~45k ⭐ — recipes incl. CSV→Excel→PPT→PDF)*.
+More official packs worth knowing: **[financial-services](https://github.com/anthropics/financial-services)** *(~34k ⭐ — DCF/LBO/comps/M&A; renamed from `financial-services-plugins`)* · **[claude-cookbooks](https://github.com/anthropics/claude-cookbooks)** *(~49k ⭐ — recipes incl. CSV→Excel→PPT→PDF)*.
 
 ---
 
@@ -75,8 +76,8 @@ More official packs worth knowing: **[financial-services-plugins](https://github
 
 | Skill / pack | What it does | Source |
 |---|---|---|
-| **Superpowers** | Turns Claude into a disciplined engineer: brainstorm → plan → execute, with TDD, git worktrees, and code review built in. Commands: `/superpowers:brainstorm`, `:write-plan`, `:execute-plan`, `:debug`. | [obra/superpowers](https://github.com/obra/superpowers) — *~214k ⭐* |
-| **Vercel agent skills** | Official Vercel pack: React / Next.js best practices, UI audit, React Native, deploy. | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) — *~27k ⭐* |
+| **Superpowers** | Turns Claude into a disciplined engineer: brainstorm → plan → execute, with TDD, git worktrees, and code review built in. Commands: `/superpowers:brainstorm`, `:write-plan`, `:execute-plan`, `:debug`. | [obra/superpowers](https://github.com/obra/superpowers) — *~257k ⭐* |
+| **Vercel agent skills** | Official Vercel pack: React / Next.js best practices, UI audit, React Native, deploy. | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) — *~29k ⭐* |
 | **skill-creator** | The fastest way to build your own custom skills (social formats, content calendars, internal workflows). | [anthropics/skills](https://github.com/anthropics/skills/tree/main/skills/skill-creator) |
 
 Superpowers installs via the Anthropic marketplace and also runs on Codex CLI, Gemini CLI, Cursor, and Copilot CLI.
@@ -87,8 +88,8 @@ Superpowers installs via the Anthropic marketplace and also runs on Codex CLI, G
 
 | Pack | What it covers | Source |
 |---|---|---|
-| **Marketing Skills** | 50+ skills: CRO, copywriting, SEO, analytics, ads, lifecycle email, pricing, launch, programmatic SEO, schema. | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — *~31k ⭐* |
-| **Claude SEO** | 25 sub-skills + 18 sub-agents: technical SEO, hreflang, sitemap, schema, programmatic. | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) — *~7.6k ⭐* |
+| **Marketing Skills** | 50+ skills: CRO, copywriting, SEO, analytics, ads, lifecycle email, pricing, launch, programmatic SEO, schema. | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — *~41k ⭐* |
+| **Claude SEO** | 25 sub-skills + 18 sub-agents: technical SEO, hreflang, sitemap, schema, programmatic. | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) — *~12k ⭐* |
 
 > Need an SEO/GEO audit *right now*? Skip to the [built-in SEO agent](#-bonus-built-in-seo-agent) below — `/seo audit [url]`.
 
@@ -98,8 +99,8 @@ Superpowers installs via the Anthropic marketplace and also runs on Codex CLI, G
 
 | Tool | What it does | Install |
 |---|---|---|
-| **Rube** · by [Composio](https://github.com/ComposioHQ/composio) *(~29k ⭐)* | One MCP server → **500+ apps** (Slack, GitHub, Notion, Gmail, Linear…) with a single OAuth. | Add `https://rube.app/mcp` as a custom connector |
-| **[googleworkspace/cli](https://github.com/googleworkspace/cli)** *(~27k ⭐)* | Full Gmail / Drive / Calendar / Sheets access via built-in MCP. | `npx skills add https://github.com/googleworkspace/cli` |
+| **Rube** · by [Composio](https://github.com/ComposioHQ/composio) *(~29k ⭐)* | One MCP server → **500+ apps** (Slack, GitHub, Notion, Gmail, Linear…) with a single OAuth. | Get the connector at [www.rube.app](https://www.rube.app) *(use `www.` — the bare `rube.app` domain currently doesn't resolve)* |
+| **[googleworkspace/cli](https://github.com/googleworkspace/cli)** *(~30k ⭐)* | Full Gmail / Drive / Calendar / Sheets access via built-in MCP. | `npx skills add https://github.com/googleworkspace/cli` |
 
 ---
 
@@ -107,11 +108,11 @@ Superpowers installs via the Anthropic marketplace and also runs on Codex CLI, G
 
 | List / tool | Scope | Stars |
 |---|---|:--:|
-| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 1000+ skills & plugins across agents | ~63k ⭐ |
-| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Skills, hooks, slash-commands, orchestrators | ~45k ⭐ |
-| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ skills from Anthropic, Vercel, Stripe… | ~24k ⭐ |
-| [vercel-labs/skills](https://github.com/vercel-labs/skills) | The `npx skills` manager + `find-skills` | ~21k ⭐ |
-| [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) | Curated list with timeline & guides | ~13k ⭐ |
+| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 1000+ skills & plugins across agents | ~68k ⭐ |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Skills, hooks, slash-commands, orchestrators | ~50k ⭐ |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ skills from Anthropic, Vercel, Stripe… | ~28k ⭐ |
+| [vercel-labs/skills](https://github.com/vercel-labs/skills) | The `npx skills` manager + `find-skills` | ~27k ⭐ |
+| [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) | Curated list with timeline & guides | ~14k ⭐ |
 | [skills.sh](https://skills.sh) | Leaderboard ranked by install count | 🌐 |
 
 **→ Full niche-organized catalog (RU) with 31 verified repos: [SKILLS-CATALOG.md](SKILLS-CATALOG.md)**
