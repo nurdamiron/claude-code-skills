@@ -4,7 +4,7 @@
 
 **Только живые репозитории.** Каждая ссылка проверена через GitHub API · ⭐ — реальное число звёзд на дату проверки.
 
-`Проверено: 2026-07-18` · `31 репо/источник` · `12 ниш` · `3000+ скиллов суммарно`
+`Проверено: 2026-07-18` · `32 репо/источника` · `12 ниш` · `3000+ скиллов суммарно`
 
 </div>
 
@@ -51,6 +51,7 @@ cp -r <repo>/<skill> ~/.claude/skills/
 | [`AgriciDaniel/claude-seo`](https://github.com/AgriciDaniel/claude-seo) | ~12k | SEO-воркфлоу: 25 сабскиллов + 18 сабагентов — технический SEO, hreflang, sitemap, schema, programmatic |
 | [`jonathimer/devmarketing-skills`](https://github.com/jonathimer/devmarketing-skills) | ~83 | Маркетинг для разработчиков: HN, Reddit, технические туториалы, docs-as-marketing |
 | [`boraoztunc/skills`](https://github.com/boraoztunc/skills) | ~177 | Копирайтинг (фреймворки Огилви), реклама, SEO, дизайн, контент-план |
+| [`akii-technologies-ltd/akii-seo-ai-search-optimizer`](https://github.com/akii-technologies-ltd/akii-seo-ai-search-optimizer) | ~79 | 12 скиллов для SEO, AEO и GEO в Claude Code: аудит сайтов, проверка ссылок, планирование контента и разметка JSON-LD. MIT. |
 
 ---
 
