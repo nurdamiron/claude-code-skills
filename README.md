@@ -113,6 +113,7 @@ Superpowers installs via the Anthropic marketplace and also runs on Codex CLI, G
 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ skills from Anthropic, Vercel, Stripe… | ~28k ⭐ |
 | [vercel-labs/skills](https://github.com/vercel-labs/skills) | The `npx skills` manager + `find-skills` | ~27k ⭐ |
 | [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) | Curated list with timeline & guides | ~14k ⭐ |
+| [zhuyansen/agent-skills-hub](https://github.com/zhuyansen/agent-skills-hub) | 276k+ skills & MCP directory ([agentskillshub.top](https://agentskillshub.top)), 43-rule security grades | ~502 ⭐ |
 | [skills.sh](https://skills.sh) | Leaderboard ranked by install count | 🌐 |
 
 **→ Full niche-organized catalog (RU) with 31 verified repos: [SKILLS-CATALOG.md](SKILLS-CATALOG.md)**
